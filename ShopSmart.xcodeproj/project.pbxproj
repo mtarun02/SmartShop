@@ -14,6 +14,9 @@
 		CEE397B222E2282700081433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEE397B022E2282700081433 /* LaunchScreen.storyboard */; };
 		CEE397BD22E2282700081433 /* ShopSmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE397BC22E2282700081433 /* ShopSmartTests.swift */; };
 		CEE397C822E2282700081433 /* ShopSmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE397C722E2282700081433 /* ShopSmartUITests.swift */; };
+		CEE397D622E22B2600081433 /* NotesListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE397D522E22B2600081433 /* NotesListTableViewController.swift */; };
+		CEE397D822E23D3700081433 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE397D722E23D3700081433 /* Note.swift */; };
+		CEE397DA22E2427800081433 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE397D922E2427800081433 /* NoteDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		CEE397C322E2282700081433 /* ShopSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEE397C722E2282700081433 /* ShopSmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopSmartUITests.swift; sourceTree = "<group>"; };
 		CEE397C922E2282700081433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE397D522E22B2600081433 /* NotesListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListTableViewController.swift; sourceTree = "<group>"; };
+		CEE397D722E23D3700081433 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		CEE397D922E2427800081433 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +103,12 @@
 		CEE397A622E2282600081433 /* ShopSmart */ = {
 			isa = PBXGroup;
 			children = (
+				CEE397D522E22B2600081433 /* NotesListTableViewController.swift */,
+				CEE397D922E2427800081433 /* NoteDetailViewController.swift */,
 				CEE397A722E2282600081433 /* AppDelegate.swift */,
 				CEE397A922E2282600081433 /* ViewController.swift */,
 				CEE397AB22E2282600081433 /* Main.storyboard */,
+				CEE397D722E23D3700081433 /* Note.swift */,
 				CEE397AE22E2282700081433 /* Assets.xcassets */,
 				CEE397B022E2282700081433 /* LaunchScreen.storyboard */,
 				CEE397B322E2282700081433 /* Info.plist */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEE397AA22E2282600081433 /* ViewController.swift in Sources */,
+				CEE397D622E22B2600081433 /* NotesListTableViewController.swift in Sources */,
+				CEE397DA22E2427800081433 /* NoteDetailViewController.swift in Sources */,
 				CEE397A822E2282600081433 /* AppDelegate.swift in Sources */,
+				CEE397D822E23D3700081433 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
